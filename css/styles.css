@@ -1,11 +1,11 @@
 /*
 COLOR PALLETTE
-https://coolors.co/db2b39-29335c-f3a712-f0cea0-534d41
-#DB2B39 - rose madder
-#29335C - space cadet
-#F3A712 - marigold
-#F0CEA0 - deep champaign
-#534D41 - dark lava
+https://coolors.co/211a1d-5d737e-fff07c-f0f7ee-c9f0ff
+#211A1D - Raisin Black
+#5D737E - Cadet
+#FFF07C - Yellow Crayola
+#F0F7EE - Mint Cream
+#C9F0FF - Columbia Blue
 */
 
 /*Global Styles
@@ -20,16 +20,22 @@ img {
 /*Profile
 -------------------------------*/
 header {
-    background: #29335C;
+    background: #5D737E;
+    color:#F0F7EE;
 }
+
 
 /* Projects
 -------------------------------*/
-
+.projects {
+    background: #F0F7EE;
+}
 
 /* Work Experience
 -------------------------------*/
-
+.work-experience {
+    background: #FFF07C;
+}
 
 /* Education
 -------------------------------*/
@@ -37,4 +43,7 @@ header {
 
 /* Contact Info
 -------------------------------*/
-
+footer {
+    background: #211A1D;
+    color: #F0F7EE;
+}
