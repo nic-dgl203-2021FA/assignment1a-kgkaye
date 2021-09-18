@@ -16,6 +16,12 @@ body {
 img {
     width: 300px;
 }
+a {
+    color: #FFF07C;
+}
+a:hover {
+    text-decoration: none;
+}
 
 /*Profile
 -------------------------------*/
@@ -30,7 +36,19 @@ header {
 .projects {
     background: #F0F7EE;
 }
-
+.projects a {
+    color: #5D737E;
+}
+.projects .btn {
+    color: #C9F0FF;
+    background: #5D737E;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover{
+    background: rgba(93, 115, 126, 80%);
+}
 /* Work Experience
 -------------------------------*/
 .work-experience {
