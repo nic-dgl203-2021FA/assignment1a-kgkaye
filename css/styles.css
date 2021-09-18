@@ -19,7 +19,7 @@ img {
     width: 300px;
 }
 a {
-    color: #FFF07C;
+    color: #FFF07C;/*yellow*/
 }
 a:hover {
     text-decoration: none;
@@ -27,7 +27,7 @@ a:hover {
 h2 {
     margin: 0;
 }
-.content-wrap {
+.content-wrap { /* center text */
     width: 800px;
     margin: 0 auto;
     padding: 60px 0;
@@ -36,7 +36,7 @@ h2 {
 /*Profile
 -------------------------------*/
 header {
-    background: #5D737E;
+    background: #5D737E; /* colour - Cadet */
     color:#F0F7EE;
 }
 
@@ -44,26 +44,26 @@ header {
 /* Projects
 -------------------------------*/
 .projects {
-    background: #F0F7EE;
+    background: #F0F7EE;/* colour - Mint Cream */
 }
 .projects a {
-    color: #5D737E;
+    color: #5D737E; /* colour - Cadet */
 }
-.projects .btn {
+.projects .btn { 
     color: #C9F0FF;
-    background: #5D737E;
+    background: #5D737E; /* colour - Cadet */
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     display: inline-block;
 }
 .projects .btn:hover{
-    background: rgba(93, 115, 126, 80%);
+    background: rgba(93, 115, 126, 80%); /* decrease opacity on hover */
 }
 /* Work Experience
 -------------------------------*/
 .work-experience {
-    background: #FFF07C;
+    background: #FFF07C; /* yellow */
 }
 
 /* Education
@@ -73,6 +73,6 @@ header {
 /* Contact Info
 -------------------------------*/
 footer {
-    background: #211A1D;
-    color: #F0F7EE;
+    background: #211A1D; /* colour - Raisin */
+    color: #F0F7EE; /* colour - Mint Cream */
 }
