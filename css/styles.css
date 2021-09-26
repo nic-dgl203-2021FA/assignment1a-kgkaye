@@ -78,6 +78,9 @@ header {
 .projects .btn:hover{
     background: rgba(93, 115, 126, 80%); /* decrease opacity on hover */
 }
+.project-item img {
+    float: left;
+}
 /* Work Experience
 -------------------------------*/
 .work-experience {
