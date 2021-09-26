@@ -14,6 +14,7 @@ body {
     color: #343434;
     margin: 0;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 img {
     width: 300px;
@@ -26,6 +27,9 @@ a:hover {
 }
 h2 {
     margin: 0;
+}
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
 }
 .content-wrap { /* center text */
     width: 800px;
