@@ -10,6 +10,12 @@ https://coolors.co/211a1d-5d737e-fff07c-f0f7ee-c9f0ff
 
 /*Global Styles
 -------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*,*:before, *after {
+    box-sizing: inherit;
+}
 body {
     color: #343434;
     margin: 0;
