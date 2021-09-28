@@ -56,6 +56,7 @@ h1, h2 {
 header {
     background: #5D737E; /* colour - Cadet */
     color:#F0F7EE;
+    text-align: center;
 }
 
 
@@ -105,4 +106,15 @@ header {
 footer {
     background: #211A1D; /* colour - Raisin */
     color: #F0F7EE; /* colour - Mint Cream */
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
