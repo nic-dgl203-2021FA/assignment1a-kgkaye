@@ -45,8 +45,9 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
-.content-wrap { /* center text */
-    width: 800px;
+.content-wrap { /* controls style for page contaiking blocks */
+    max-width: 800px;
+    width: 85%; /* when viewport is small that max-width value it will apply this style*/
     margin: 0 auto;
     padding: 60px 0;
 }
