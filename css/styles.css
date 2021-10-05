@@ -74,7 +74,6 @@ h3 {
 header {
     background: #5D737E; /* colour - Cadet */
     color:#F0F7EE;
-    text-align: center;
 }
 
 
@@ -100,10 +99,7 @@ header {
 .project-item {
     overflow: hidden;
 }
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
+
 .project-item h3 {
     margin-top: 0;
 }
@@ -112,11 +108,7 @@ header {
 .work-experience {
     background: #FFF07C; /* yellow */
 }
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px; 
-}
+
 
 /* Education
 -------------------------------*/
@@ -126,6 +118,9 @@ header {
     background-position: top right;
     padding-bottom: 100px;
 }
+.education p {
+    width: 60%;
+}
 
 
 /* Contact Info
@@ -133,7 +128,6 @@ header {
 footer {
     background: #211A1D; /* colour - Raisin */
     color: #F0F7EE; /* colour - Mint Cream */
-    text-align: center;
 }
 .contact-list {
     list-style-type: none;
@@ -145,3 +139,20 @@ footer {
     padding: 15px;
     display: inline-block;
 }
+/* responsive styles
+-------------------------------*/
+@media screen and (min-width:750px){
+    header, footer {
+        text-align: center;
+    }
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px; 
+    }
+}
+
