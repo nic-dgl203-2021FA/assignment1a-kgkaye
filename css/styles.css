@@ -222,9 +222,7 @@ footer {
     position: relative;
     width: 500px;
     max-width: 90%;
-    background-image: url(../images/window-pattern.jpg);
-    background-size: cover;
-    background-position: top right;
+    background-color: white;
     padding: 1em 2em;
   }
   
