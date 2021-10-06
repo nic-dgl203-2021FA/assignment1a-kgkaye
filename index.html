@@ -81,10 +81,35 @@
               The audio was created by myself.
             </p>
           </section>
+
+          <!--My current painting-->
+          <section class="project-item">
+            <!--This code was adapted from Marko on 2021/10/05 from here:
+                https://codepen.io/denic/pen/ZEbKgPp?editors=1100-->
+            <div class="wrapper">
+              <p>I also paint on my own time. Check out my most recent painting</p>
+              <a type="btn" id="open_modal" href="#my-painting">Open Demo Modal</a>
+            </div>
+          
+            <div id="my-painting" class="modal">
+              <div class="modal__content">
+                  <h2>My latest painting</h2>
+                  <div>
+                    <img src="images/my-painting.jpg" alt="My Current Painting">
+                  </div>         
+          
+                  <div class="modal__footer">
+                      Untitled painting (in progress) 19" x 12"
+                  </div>
+          
+                  <a href="#" type="btn" class="modal__close">Close</a>
+              </div>
+            </div>
+          </section>
         </div> <!-- content-wrap contatainer end-->
         <!-- End of Project block. -->
       </section>
-
+      
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
         <div class="content-wrap item-details divider"> <!--content-wrap container start-->
@@ -197,25 +222,7 @@
     </main>
 
     
-    <div class="wrapper">
-      <a href="#my-painting">Open Demo Modal</a>
-  </div>
-  
-  <div id="my-painting" class="modal">
-      <div class="modal__content">
-          <h2>My latest painting</h2>
-          <div>
-            <img src="images/my-painting.jpg" alt="My Current Painting">
-          </div>
-          
-  
-          <div class="modal__footer">
-              Untitled painting (in progress) 19" x 12"
-          </div>
-  
-          <a href="#" type="btn" class="modal__close">Close</a>
-      </div>
-  </div>
+    
    <!-- <div class="modal">
       <div class="container">
         <a class="btn" href="open-modal">Open Content</a>
