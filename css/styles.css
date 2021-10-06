@@ -28,7 +28,7 @@ img {
     width: 300px;
 }
 a {
-    color: #FFF07C;/*yellow*/
+    color: #FFF07C;
 }
 a:hover {
     text-decoration: none;
@@ -45,7 +45,7 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
-.content-wrap { /* controls style for page contaiking blocks */
+.content-wrap { /* controls style for page containing blocks */
     max-width: 800px;
     width: 85%; /* when viewport is small that max-width value it will apply this style*/
     margin: 0 auto;
@@ -74,6 +74,29 @@ h3 {
 header {
     background: #5D737E; /* colour - Cadet */
     color:#F0F7EE;
+}
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+    float: left;
+}
+.navlinks a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline;    
+    color: #F0F7EE;
+    
+}
+.navlinks a:hover {
+    color: #FFF07C;
+}
+.navlinks a:first-child {
+    padding-left: 0; /*Remove padding left on first link*/
+    
+}
+header h1 {
+    clear: both; /* clear h1 float so it is not affected by navlinks*/
 }
 
 
@@ -113,7 +136,7 @@ header {
 /* Education
 -------------------------------*/
 .education {
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-image: url(../images/window-pattern.jpg);
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -181,7 +204,7 @@ footer {
     align-items: center;
     justify-content: center;
     /* End center */
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    background-image: url(../images/window-pattern.jpg);
     background-size: cover;
     background-position: top right;
   }
@@ -220,10 +243,12 @@ footer {
   .modal__content {
     border-radius: 4px;
     position: relative;
-    width: 500px;
+    
     max-width: 90%;
-    background-color: white;
-    padding: 1em 2em;
+    background-color: lightgray;
+    float: left;
+    margin: auto;
+    padding: 1em;
   }
   
   .modal__footer {
@@ -232,13 +257,14 @@ footer {
   .modal__footer a { 
         color: #585858;
   }
-  .modal__footer i {
-    color: #d02d2c;
-  }
+  
   .modal__close {
     position: absolute;
     top: 10px;
     right: 10px;
+    background: white;
     color: #585858;
+    border-radius: 5px;
+    padding: 5px;
     text-decoration: none;
   }
