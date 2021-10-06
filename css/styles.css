@@ -1,11 +1,11 @@
 /*
 COLOR PALLETTE
-https://coolors.co/211a1d-5d737e-fff07c-f0f7ee-c9f0ff
 #211A1D - Raisin Black
 #5D737E - Cadet
-#FFF07C - Yellow Crayola
-#F0F7EE - Mint Cream
-#C9F0FF - Columbia Blue
+#F0F7EE - Off White
+#F4E9B3 - Muted Yellow
+#B5CEEF - light Blue
+#8b98ae - Dark Grey Blue
 */
 
 /*Global Styles
@@ -28,7 +28,7 @@ img {
     width: 300px;
 }
 a {
-    color: #FFF07C;
+    color: #F4E9B3;
 }
 a:hover {
     text-decoration: none;
@@ -72,7 +72,7 @@ h3 {
 /*Profile
 -------------------------------*/
 header {
-    background: #5D737E; /* colour - Cadet */
+    background: #8B98AE; /* colour - Cadet */
     color:#F0F7EE;
 }
 .navlinks {
@@ -85,11 +85,11 @@ header {
     text-decoration: none;
     padding: 15px;
     display: inline;    
-    color: #F0F7EE;
+    
     
 }
 .navlinks a:hover {
-    color: #FFF07C;
+    color: #B5CEEF;
 }
 .navlinks a:first-child {
     padding-left: 0; /*Remove padding left on first link*/
@@ -103,7 +103,7 @@ header h1 {
 /* Projects
 -------------------------------*/
 .projects {
-    background: #F0F7EE;/* colour - Mint Cream */
+    background: #B5CEEF;/* colour - Mint Cream */
 }
 .projects a {
     color: #5D737E; /* colour - Cadet */
@@ -129,7 +129,7 @@ header h1 {
 /* Work Experience
 -------------------------------*/
 .work-experience {
-    background: #FFF07C; /* yellow */
+    background: #F4E9B3; /* yellow */
 }
 
 
@@ -249,6 +249,7 @@ footer {
     float: left;
     margin: auto;
     padding: 1em;
+    overflow: hidden;
   }
   
   .modal__footer {
