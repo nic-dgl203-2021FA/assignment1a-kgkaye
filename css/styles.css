@@ -248,6 +248,10 @@ https://codepen.io/denic/pen/ZEbKgPp?editors=1100*/
     padding: 2em 4em;
     overflow: hidden;
   }
+
+    .wrapper h3 {
+      padding-bottom: 20px;
+  }
   
   .modal img {
       width: 350px;
